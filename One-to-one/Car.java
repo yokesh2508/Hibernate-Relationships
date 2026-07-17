@@ -5,6 +5,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 
 @Entity
+@GeneratedValue(strategy = GenerationType.IDENTITY)
 public class Car {
 
 	@Id
